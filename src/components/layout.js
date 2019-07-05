@@ -17,12 +17,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <div>
-        <Header />
-        {children()}
-      </div>
-    </>
+    <div>
+      <Header />
+      {children}
+    </div>
   )
 }
 

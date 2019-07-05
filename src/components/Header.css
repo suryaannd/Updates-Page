@@ -1,27 +1,28 @@
 .Header {
-  position: fixied;
+  position: fixed;
   width: 100%;
-  padding: 50 0;
-  z-index: 100;
+  padding: 24px 0;
 }
 
 .HeaderGroup {
   max-width: 800px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   align-items: center;
   justify-items: center;
 }
 
 .Header a {
   color: white;
+  font-size: 18px;
 }
 
 .Header button {
   padding: 8px 20px;
-  font-size: 20px;
-  background: #ec7e7b;
+  font-size: 18px;
+  color: #ec7e7b;
+  background: transparent;
   border: none;
   font-weight: 600;
   border-radius: 4px;
@@ -35,10 +36,10 @@
   }
 
   .HeaderGroup {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
   }
 
-  .Header a:nth-child(3) {
+  .Header a:nth-child(4) {
     display: none;
   }
 }
