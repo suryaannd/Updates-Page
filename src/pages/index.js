@@ -25,8 +25,14 @@ const IndexPage = () => (
             <p>
               Framer makes it incredibly easy to add complex user interactions
               inside your prototype, taking your design and code components to
-              the next level. Playground allows you to quickly test new concepts
-              within the all - new in -app code editor.
+              the next level.
+            </p>
+          </div>
+          <div className="UpdateGroup2">
+            <h3>What's Improved</h3>
+            <p>
+              Loading performance when working with Code Components and
+              exporting animated and 3D Icons.
             </p>
           </div>
         </div>
