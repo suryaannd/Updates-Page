@@ -10,10 +10,9 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Things Are Changing</h1>
+        <h1>Updates</h1>
         <p>New updates and improvements to Shape</p>
       </div>
-      <Updates />
       <Updates />
     </div>
   </Layout>
