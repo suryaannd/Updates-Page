@@ -15,9 +15,33 @@ body {
   background-position: center;
 }
 
+.HeroGroup {
+  color: white;
+  margin: 0 auto;
+  max-width: 580px;
+  padding-top: 180px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.HeroGroup h1 {
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.HeroGroup p {
+  line-height: 1.8;
+  color: #c1c4e6;
+  margin: 0;
+  font-weight: 400;
+}
+
 .GridSection {
-  padding-top: 240px;
-  padding-bottom: 120px;
+  padding-top: 140px;
+  padding-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
@@ -46,18 +70,18 @@ body {
 }
 
 .Update p {
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 400;
   max-width: 480px;
   margin: 0px;
   line-height: 1.6;
-  font-weight: 300;
-  color: white;
-  letter-spacing: 0.4px;
+  color: #c1c4e6;
 }
 
 .Update h4 {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
   margin: 0px;
   padding-bottom: 12px;
@@ -73,8 +97,8 @@ body {
 .Fixes li {
   font-size: 18px;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 20px;
   color: white;
-  letter-spacing: 0.6px;
+  letter-spacing: 1px;
 }
