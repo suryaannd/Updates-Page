@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="2px" viewBox="0 0 1200 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Line@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#111114" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#8091FF" offset="50.3473694%"></stop>
+            <stop stop-color="#111114" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Updates-Page-@1440" transform="translate(-121.000000, -916.000000)" stroke="url(#linearGradient-1)">
+            <path d="M720.5,317 L720.5,1517" id="Line" transform="translate(720.500000, 917.000000) rotate(-270.000000) translate(-720.500000, -917.000000) "></path>
+        </g>
+    </g>
+</svg>

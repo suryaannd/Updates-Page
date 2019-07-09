@@ -49,7 +49,7 @@ body {
   margin: auto;
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
   .GridSection {
     padding-top: 120px;
     padding-bottom: 80px;

@@ -1,9 +1,11 @@
 import React from "react"
+import styled from "styled-components"
 
 class Update extends React.Component {
   render() {
     return (
       <section className="GridSection">
+        <IllustrationImage src="../images/Updates.svg" alt="" />
         <div className="Update">
           <h4>Released July 2, 2019</h4>
           <h1> Version 32.5</h1>
@@ -40,3 +42,11 @@ class Update extends React.Component {
 }
 
 export default Update
+
+const IllustrationImage = styled.img`
+  height: 260px;
+  left: 691px;
+  top: 128px;
+  position: relative;
+  z-index: 2;
+`
