@@ -8,12 +8,6 @@ body {
   background: #111114;
 }
 
-a {
-  color: #ec7e7b;
-  text-decoration: none;
-  font-weight: 600;
-}
-
 .Hero {
   background: url("../Backgrounds/Hero\ BG@1x.png");
   height: 1024px;
@@ -21,120 +15,66 @@ a {
   background-position: center;
 }
 
-.HeroGroup {
-  margin: 0 auto;
-  max-width: 500px;
-  padding: 160px 50px;
-  text-align: center;
+.GridSection {
+  padding-top: 240px;
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 980px;
+  margin: auto;
 }
 
-.Hero h1 {
-  color: white;
+@media (max-width: 768) {
+  .GridSection {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 692px;
+    margin: auto;
+  }
+}
+
+.Update h1 {
   font-size: 48px;
   line-height: 1.2;
-}
-
-.Hero p {
-  color: rgba(193, 196, 230, 100);
-  font-size: 20px;
-  line-height: 1.6;
-}
-
-@media (max-width: 640px) {
-  .HeroGroup {
-    padding: 100px 20px;
-  }
-
-  .Hero h1 {
-    font-size: 40px;
-  }
-  .Hero p {
-    font-size: 16px;
-  }
-}
-
-.Updates {
-  max-width: 1400px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
-  padding: 0px 140px;
-}
-
-.UpdateGroup {
-  padding: 0px 40px;
-  max-width: 540px;
-}
-
-.UpdateGroup h2 {
-  font-size: 42px;
   font-weight: 800;
-  margin: 0;
+  margin: 0px;
+  padding-bottom: 24px;
   color: white;
 }
 
-.UpdateGroup h4 {
-  font-size: 14px;
+.Update p {
+  font-size: 22px;
+  max-width: 480px;
+  margin: 0px;
+  line-height: 1.6;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 0.4px;
+}
+
+.Update h4 {
+  font-size: 16px;
+  font-weight: 400;
   text-transform: uppercase;
-  padding: 0px 32px;
-  margin: 0.5;
+  margin: 0px;
+  padding-bottom: 12px;
   color: #c1c4e6;
 }
 
-.UpdateGroup h3 {
+.Fixes h2 {
   font-size: 32px;
   font-weight: 700;
-  padding: 32px 32px;
-  margin: 0;
   color: white;
 }
 
-.UpdateGroup p {
-  font-size: 20px;
-  padding: 0px 32px;
-  max-width: 480px;
+.Fixes li {
+  font-size: 18px;
+  font-weight: 300;
   line-height: 1.6;
-  margin: 0;
-}
-
-@media (max-width: 640px) {
-  .Updates {
-    padding: 0px 20px;
-    grid-template-columns: repeat(2, auto);
-  }
-
-  .UpdateGroup h2 {
-    font-size: 32px;
-  }
-  .UpdateGroup h3 {
-    font-size: 28px;
-    margin: 0;
-  }
-  .UpdateGroup p {
-    font-size: 16px;
-    margin: 0;
-    line-height: 2;
-  }
-}
-
-.UpdateGroup2 {
-  max-width: 540px;
-}
-
-.UpdateGroup2 h3 {
-  font-size: 32px;
-  font-weight: 700;
-  padding: 32px 32px;
-  margin: 0;
-  max-width: 540px;
+  margin-bottom: 20px;
   color: white;
-}
-
-.UpdateGroup2 p {
-  font-size: 20px;
-  margin: 0;
-  padding: 0px 32px;
-  max-width: 480px;
-  line-height: 1.6;
+  letter-spacing: 0.6px;
 }

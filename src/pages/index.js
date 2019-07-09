@@ -7,36 +7,39 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <div>
-      <div className="Hero">
-        <div className="HeroGroup">
-          <h1>Constantly Evolving</h1>
-          <p>
-            Did you know that we update Scrumpy 13 times a day on average? We're
-            continuously improving your experience. Learn more about our latest
-            additions.
-          </p>
+    <div className="Hero">
+      <section className="GridSection">
+        <div className="Update">
+          <h4>Released July 2, 2019</h4>
+          <h1> Version 1.0</h1>
+          <p>We're so excited to announce animated illustrations to Shape.so</p>
         </div>
-        <div className="Updates">
-          <div className="UpdateGroup">
-            <h2>#Version 1.1</h2>
-            <h4>Released 12 June, 2019</h4>
-            <h3>Animated Illustrations</h3>
-            <p>
-              Framer makes it incredibly easy to add complex user interactions
-              inside your prototype, taking your design and code components to
-              the next level.
-            </p>
-          </div>
-          <div className="UpdateGroup2">
-            <h3>What's Improved</h3>
-            <p>
-              Loading performance when working with Code Components and
-              exporting animated and 3D Icons.
-            </p>
-          </div>
+        <div className="Fixes">
+          <h2>Improvements</h2>
+          <ul class="checklist">
+            <li>
+              Holding Shift and dragging the Smart Distribute handles for a
+              selection of layers on the Canvas will now snap based on your
+              Nudging settings
+            </li>
+            <li>
+              The aspect ratio lock now accurately displays as an open grey lock
+              when inactive.
+            </li>
+            <li>
+              You’ll now receive fewer disruptive warning notifications when
+              saving large documents.
+            </li>
+          </ul>
+          <h2>Fixed</h2>
+          <ul className="checklist">
+            <li>
+              You can now export a scroll component without missing any content
+            </li>
+            <li>Search in Playground dark mode now works as expected.</li>
+          </ul>
         </div>
-      </div>
+      </section>
     </div>
   </Layout>
 )
