@@ -7,6 +7,9 @@ class Update extends React.Component {
   render() {
     return (
       <div>
+        <div className="Check">
+          <CheckImage src="https://d33wubrfki0l68.cloudfront.net/53f1b70cc5b0b4a29045ddb87752c269ab4dcbcf/e0a5a/images/swift-ui/illustration2.svg" />
+        </div>
         <section className="GridSection">
           <div className="Update">
             <h4>Released July 2, 2019</h4>
@@ -49,7 +52,7 @@ class Update extends React.Component {
 
 export default Update
 
-const IllustrationImage = styled.img`
+const CheckImage = styled.img`
   height: 64;
   left: 691px;
   top: 128px;
